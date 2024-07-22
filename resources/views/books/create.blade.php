@@ -21,7 +21,7 @@
    @include('include.nav')
 
    {{--TODO: Inicio del formulario de grabado de Usuario.  --}}
-    <h1 class="text-center">Grabar un Author</h1>
+    <h1 class="text-center">Grabar un Libro</h1>
     <div class="container">
         <form method="POST" action="{{ route('books.store') }}">
             @csrf

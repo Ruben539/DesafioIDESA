@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
+use App\Http\Controllers\debtsController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -51,6 +52,16 @@ Route::prefix('books')->name('books.')->group(function(){
     Route::get('edit/{book}', [BookController::class, 'edit'])->name('edit');
     Route::put('update/{book}', [BookController::class, 'update'])->name('update');
     Route::get('destroy/{book}', [BookController::class, 'destroy'])->name('destroy');
+});
+
+
+//TODO: Ejercicio numero 2 de lotes.
+Route::prefix('debts')->name('debts.')->group(function(){
+    Route::get('debts', [debtsController::class, 'index'])->name('index');
+    Route::get('create', [debtsController::class, 'create'])->name('create');
+    Route::get('edit', [debtsController::class, 'edit'])->name('edit');
+    Route::post('show', [debtsController::class, 'show'])->name('show');
+   
 });
 
 Route::get('logout', [UserController::class, 'logout'])->name('include.nav');

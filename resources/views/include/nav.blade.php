@@ -15,6 +15,9 @@
         <li class="nav-item">
           <a class="nav-link" href="{{route('books.index')}}">Libros</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{route('debts.index')}}">Ejercicio 2</a>
+        </li>
       </ul>
     </div>
   </nav>

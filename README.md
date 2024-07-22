@@ -27,11 +27,23 @@ podra ejecutar el comando php artisan migrate:fresh --sedd o php artisan migrate
 # Paso 4: Ejecutar el server del proyecto.
 Terminado con todo los necesarios para el sistema ya con la base de datos ya migrada se procede a levantar el sistema
 en laravel ser realiza con el siguiente comandon php artisan serve o si trabaja con una ip y un puerto 
-seria php artisan serve --host='su dereccion ip' --pot='el puerto asignado'.
+seria php artisan serve --host='su dereccion ip' --port='el puerto asignado'.
 
 # Observaciones a tener en cuenta.
 Si va utilizar su ip y un puerto asignado, tenga en cuenta que debe ser el mismo asignado an el.env en la APP_URL=http://localhost
 el sistema cuenta con un usuario de prueba que seria el siguiente
 Correo: prueba@gmail.com Contraseña: 123456789.
+
+
+# Ejercicio Numero 2.
+
+# Paso 1: Migracion de la nueva tabla y carga de datos.
+Realizamos la migracion de la tabla del cual se van a extraer los datos, para teber la tabla cargada en la carpeta raiz del proyecto
+estara un archivo sql el cual contiene la tabla con los datos ya insertados. Este seria el comando para realizar la migracion unica de 
+la tabla sin necesidad de hacer un refresh completo php artisan migrate --path=/database/migrations/2024_07_22_181551_create_debts_table.php
+
+# Paso 2: Prueba de ejecuciones http.
+En el menu superior se encuentra el nav que dirigira a la pantalla del ejercicio numero 2, una vez ahi los botones señalan que tipo de ejercio
+cumple el boton y abajo de ellos se encuenta el ejercicio de de parametros por criterio de busqueda.
 
 # Desde ya muchas gracias por la oportunidad.
