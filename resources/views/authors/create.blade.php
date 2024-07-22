@@ -21,7 +21,7 @@
    @include('include.nav')
 
    {{--TODO: Inicio del formulario de grabado de Usuario.  --}}
-    <h1 class="text-center">Grabar un Author</h1>
+    <h1 class="text-center">Grabar un Autor</h1>
     <div class="container">
         <form method="POST" action="{{ route('authors.store') }}">
             @csrf
@@ -44,7 +44,7 @@
 
     
             <div class="form-row mt-3 text-center">
-                <button class="btn btn-primary btn-lg" type="submit">Grabar Author</button>
+                <button class="btn btn-primary btn-lg" type="submit">Grabar Autor</button>
             </div>
 
         </form>

@@ -28,7 +28,7 @@
             <div class="card-header">Sistema de Biblioteca</div>
             <div class="card-body">
               <h5 class="card-title">Bienvendo al sistema</h5>
-              <p class="card-text">Aqui podra registar cualquier libro que desee y llevar el reistro de su libro favorito y su autor.</p>
+              <p class="card-text">Aqui podra registar cualquier libro que desee y llevar el registro de su libro favorito y su autor.</p>
             </div>
         
    </div>

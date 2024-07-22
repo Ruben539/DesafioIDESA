@@ -48,7 +48,7 @@
 
 
                     <div class="form-row mt-3 text-center">
-                        <button class="btn btn-primary btn-lg" type="submit">Editar Usuario</button>
+                        <button class="btn btn-primary btn-lg" type="submit">Editar Autor</button>
                     </div>
 
                 </form>
